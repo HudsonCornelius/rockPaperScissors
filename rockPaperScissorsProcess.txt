@@ -1,0 +1,63 @@
+This program will allow the user to play Rock Paper Scissors against the computer.
+
+To do:
+1. make code to check who won each round
+2. code takes input from the user
+3. code to take input from the computer
+4. code that checks if the user wants to quit or hasn't entered a choice
+5. loop each tounf of the game
+6. add statements to welcome the user and thank them for playing
+7. loop whole game so user can keep playing
+
+
+set variable keepPlaying to true
+while keepPlaying true
+
+    print a welcome message
+    explain rules. best two out of three and press q to quit
+    
+    make a key to assign a variable to a choice (1 is rock, 2 is paper, 3 is scissors)
+    
+    import random function
+    
+    set computers and players score to 0
+    
+        while the players score is less than two and the computers score is less than two
+        
+        computers score = random number 1 - 3
+        players choice = inpute (ask player to choose rock paper or scissors)
+        
+        if player inputs q
+            set keepPlaying to false
+            break loop
+        
+        else if (player chooses rock and computer chooses rock) or (player choose paper and computer chooses paper) or 
+        (player chooses scissors and computer chooses scissors):
+            print draw
+            print out players and computers score
+            
+        else if (player chooses rock and computer chooses scissors) or (player chooses scissors and computer chooses paper) 
+        or (player chooses paper and computer chooses rock)
+            print win
+            add one to players score
+            print out player scores
+            
+        else if (player chooses scissors and computer chooses rock)  or (player chooses paper and computer chooses scissors) 
+        or (player chooses rock and computer chooses paper)
+            print lose
+            add one to computers score
+            print out player scores
+        
+        else
+            tell player their input was not valid
+            
+print out a message thanking them for playing 
+if player score is 3
+    let player know they won
+else 
+    let player know the computer won
+print out player and computer score
+        
+        
+        
+            
